@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What does DBMS stand for?",
+        "options": [
+            "Database Management System",
+            "Data Bank Management System",
+            "Database Mainframe System",
+            "Data Management and Backup System"
+        ],
+        "answer": "Database Management System"
+    },
+    {
+        "question": "Which of the following is a type of DBMS model?",
+        "options": [
+            "Hierarchical model",
+            "Network model",
+            "Relational model",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "What is the purpose of normalization in DBMS?",
+        "options": [
+            "To eliminate redundancy",
+            "To increase redundancy",
+            "To create relationships",
+            "To reduce data size"
+        ],
+        "answer": "To eliminate redundancy"
+    },
+    {
+        "question": "Which of the following is a command used to retrieve data from a database?",
+        "options": [
+            "SELECT",
+            "GET",
+            "FETCH",
+            "RETRIEVE"
+        ],
+        "answer": "SELECT"
+    },
+    {
+        "question": "What is a primary key in a database?",
+        "options": [
+            "A unique identifier for a record",
+            "A key used for encryption",
+            "A foreign key",
+            "A key that allows null values"
+        ],
+        "answer": "A unique identifier for a record"
+    },
+    {
+        "question": "Which of the following is not a SQL data type?",
+        "options": [
+            "VARCHAR",
+            "INTEGER",
+            "FLOAT",
+            "STRING"
+        ],
+        "answer": "STRING"
+    },
+    {
+        "question": "What is a foreign key?",
+        "options": [
+            "A key that uniquely identifies a record",
+            "A key used to link two tables",
+            "A key that allows duplicate values",
+            "A key for encryption"
+        ],
+        "answer": "A key used to link two tables"
+    },
+    {
+        "question": "Which of the following SQL statements is used to update data in a database?",
+        "options": [
+            "UPDATE",
+            "SET",
+            "EDIT",
+            "MODIFY"
+        ],
+        "answer": "UPDATE"
+    },
+    {
+        "question": "What does the term 'schema' mean in a database context?",
+        "options": [
+            "The structure of the database",
+            "The data itself",
+            "A type of query",
+            "A backup of data"
+        ],
+        "answer": "The structure of the database"
+    },
+    {
+        "question": "Which of the following is a type of join in SQL?",
+        "options": [
+            "INNER JOIN",
+            "OUTER JOIN",
+            "LEFT JOIN",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "What is the use of the GROUP BY clause in SQL?",
+        "options": [
+            "To group rows that have the same values",
+            "To sort data",
+            "To filter data",
+            "To join tables"
+        ],
+        "answer": "To group rows that have the same values"
+    },
+    {
+        "question": "What is a view in a database?",
+        "options": [
+            "A virtual table",
+            "A stored procedure",
+            "A primary key",
+            "A foreign key"
+        ],
+        "answer": "A virtual table"
+    },
+    {
+        "question": "Which command is used to create a new table in SQL?",
+        "options": [
+            "CREATE TABLE",
+            "ADD TABLE",
+            "NEW TABLE",
+            "TABLE CREATE"
+        ],
+        "answer": "CREATE TABLE"
+    },
+    {
+        "question": "Which SQL function is used to count the number of rows in a table?",
+        "options": [
+            "COUNT()",
+            "SUM()",
+            "TOTAL()",
+            "NUMBER()"
+        ],
+        "answer": "COUNT()"
+    },
+    {
+        "question": "What is an index in a database?",
+        "options": [
+            "A performance optimization structure",
+            "A backup of data",
+            "A type of query",
+            "A record"
+        ],
+        "answer": "A performance optimization structure"
+    },
+    {
+        "question": "Which of the following statements is true regarding transactions?",
+        "options": [
+            "They must be atomic",
+            "They can be partially completed",
+            "They are always persistent",
+            "They can be rolled back at any time"
+        ],
+        "answer": "They must be atomic"
+    },
+    {
+        "question": "What does ACID stand for in the context of database transactions?",
+        "options": [
+            "Atomicity, Consistency, Isolation, Durability",
+            "Action, Consistency, Isolation, Durability",
+            "Atomicity, Control, Isolation, Durability",
+            "None of the above"
+        ],
+        "answer": "Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+        "question": "What is the purpose of a stored procedure?",
+        "options": [
+            "To store data",
+            "To automate complex SQL queries",
+            "To create a table",
+            "To define a view"
+        ],
+        "answer": "To automate complex SQL queries"
+    },
+    {
+        "question": "Which command is used to delete a table in SQL?",
+        "options": [
+            "DELETE TABLE",
+            "DROP TABLE",
+            "REMOVE TABLE",
+            "CLEAR TABLE"
+        ],
+        "answer": "DROP TABLE"
+    },
+    {
+        "question": "What does the term 'data integrity' refer to?",
+        "options": [
+            "Accuracy and consistency of data",
+            "Backup of data",
+            "Speed of data retrieval",
+            "Storage capacity"
+        ],
+        "answer": "Accuracy and consistency of data"
+    }
+]

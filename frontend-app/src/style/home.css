@@ -1,0 +1,175 @@
+/* src/Navbar.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d9d9da;
+   }
+
+  .logo{
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  .logo .icon img{
+    height: 7vh;
+  }
+  .content{
+    height: 72vh;
+    display: flex;
+    padding: 1% 4%;
+  }
+  .content .left{
+    background-color: #d9d9da;
+    padding: 2%;
+    margin: 5px;
+    border-radius: 10px;
+    border: #ff0081;
+    width: 70%;
+  }
+  .left .logo-name{
+    display: flex;
+    margin: 10px 0px;
+  }
+  .logo-name i{
+    font-size: 35px;
+    margin: 0px 5px 5px 10px;
+  }
+  .logo-name h1{
+    font-size: 38px;
+    font-style:italic;
+    color: rgb(6 183 129);
+  }
+  .content .left h1{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 45px;
+  }
+  .left .img{
+    display: flex;
+    justify-content: center;
+  }
+  .img img{
+    width: 85%;
+    border-radius: 10px;
+  }
+  .left .btn-class{
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    position: relative;
+  }
+  .left .btn-class .btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: #2d5fcf;
+    transition: background-color 1.0s ease, color 1.0s ease, transform 0.3s ease;
+  }
+  .btn-class .btn:hover{
+    background-color: rgb(147, 148, 151);
+    color: black;
+  }
+  .image{
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .image img{
+    height: 70%;
+    border-radius: 15px;
+    margin: 5px;
+  }
+  .topics{
+    padding: 2%;
+  }
+  .topics h1{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: center;
+  }
+  .topic .info-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .info-link .btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0b396f;
+    border: 1px solid white;
+    border-radius: 25px;
+    transition: background-color 1.0s ease, color 1.0s ease, transform 0.3s ease;
+  }
+  .info-link .btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .info-link .btn i {
+    font-size: 15px;
+    margin: 0 8px;
+  }
+  .info-link i{
+    font-size: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: black;
+  }
+  .card {
+    display: flex;
+    opacity: 0;
+    transform: translateX(0); 
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    will-change: transform, opacity; 
+  }
+  
+  .left-transition {
+    transform: translateX(-100px);
+  }
+  
+  .left-transition.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .right-transition {
+    transform: translateX(-100px);
+  }
+  
+  .right-transition.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+
+  .card-content {
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .topic .user {
+    display: flex;
+    justify-content: center;
+  }
+  .user i {
+    font-size: 25px;
+  }
+  .topic h2{
+    text-align: center;
+    color: rgb(44, 44, 44);
+    min-height: 60px;
+  }
+  .topics .topic{
+    margin: 10px 10px;
+    padding: 2%;
+    background: #5882af;
+    border-radius: 20px;
+    border: rgb(255, 255, 255);
+    display: block;
+    width: 30%;
+  }

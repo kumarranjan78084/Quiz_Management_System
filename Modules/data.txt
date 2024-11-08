@@ -1,0 +1,137 @@
+[
+  {
+    "id": "10CQ103",
+    "userType": "student",
+    "Name": "Manoj Kumar",
+    "email": "bt22cs031@nitmz.ac.in",
+    "phone": "9897678766",
+    "college": "NIT Mizoram",
+    "department": "CE",
+    "password": "12345"
+  },
+  {
+    "id": "10CQ104",
+    "userType": "faculty",
+    "Name": "Raviranjan Kumar",
+    "email": "bt22cs039@nitmz.ac.in",
+    "phone": "09897678766",
+    "college": "Other",
+    "department": "ME",
+    "password": "09890"
+  },
+  {
+    "id": "10SI105",
+    "userType": "student",
+    "Name": "Lucky",
+    "email": "lucky123@gmail.com",
+    "phone": "07280807014",
+    "college": "NIT Mizoram",
+    "department": "CSE",
+    "password": "56789"
+  },
+  {
+    "id": "10FI106",
+    "userType": "faculty",
+    "Name": "Rohit Kumar",
+    "email": "bt22me001@nitmz.ac.in",
+    "phone": "07890546321",
+    "college": "NIT Mizoram",
+    "department": "EE",
+    "password": "rohit"
+  },
+  {
+    "id": "10SI107",
+    "userType": "student",
+    "Name": "Abdul",
+    "email": "abdul123@gmail.com",
+    "phone": "8372756456",
+    "college": "NIT Mizoram",
+    "department": "CE",
+    "password": "12345678"
+  },
+  {
+    "id": "10FI108",
+    "userType": "faculty",
+    "Name": "Ashish patel",
+    "email": "ashish123patel@nitmz.ac.in",
+    "phone": "53654564",
+    "college": "NIT Mizoram",
+    "department": "ECE",
+    "password": "ashish"
+  },
+  {
+    "id": "10SI109",
+    "userType": "student",
+    "Name": "Raviranjan Kumar",
+    "email": "bt22cs039@nitmz.ac.in",
+    "phone": "09570500312",
+    "college": "NIT Mizoram",
+    "department": "CSE",
+    "password": "Ravi@123"
+  },
+  {
+    "id": "10SI110",
+    "userType": "student",
+    "Name": "atul kumar",
+    "email": "atul2020gmai.com",
+    "phone": "6568764768",
+    "college": "NIT Mizoram",
+    "department": "CSE",
+    "password": "12345"
+  },
+  {
+    "id": "10SI111",
+    "userType": "student",
+    "Name": "gf",
+    "email": "xdfcgv@sdfg",
+    "phone": "12345345",
+    "college": "Other",
+    "department": "Other",
+    "password": "etrehtrfyg"
+  },
+  {
+    "id": "10SI112",
+    "Name": "Atul kumar",
+    "email": "bt22cs023@nitmz.ac.in",
+    "phone": "43687926353",
+    "college": "Other",
+    "department": "ME",
+    "password": "098"
+  },
+  {
+    "id": "10SI113",
+    "Name": "Lucky",
+    "email": "lucky3459.com",
+    "phone": "4e762738",
+    "college": "NIT Mizoram",
+    "department": "ECE",
+    "password": "asd"
+  },
+  {
+    "id": "10SI114",
+    "Name": "",
+    "email": "ed5673",
+    "phone": "gjw66984",
+    "college": "NIT Mizoram",
+    "department": "ME",
+    "password": "lkj"
+  },
+  {
+    "id": "10SI115",
+    "Name": "72365874",
+    "email": "dtjygygd",
+    "phone": "dykuyfuegy",
+    "college": "NIT Mizoram",
+    "department": "CSE",
+    "password": "098"
+  },
+  {
+    "id": "10SI116",
+    "Name": "Sonu",
+    "email": "raj@nitmz.ac.in",
+    "phone": "9580678734",
+    "college": "Other",
+    "department": "CSE",
+    "password": "123456789"
+  }
+]

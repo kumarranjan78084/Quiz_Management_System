@@ -1,0 +1,202 @@
+[
+  {
+      "question": "What is the correct syntax to print 'Hello World' in Java?",
+      "options": [
+          "System.out.println('Hello World');",
+          "echo('Hello World');",
+          "print('Hello World');",
+          "println('Hello World');"
+      ],
+      "answer": "System.out.println('Hello World');"
+  },
+  {
+      "question": "Which of the following is not a primitive data type in Java?",
+      "options": [
+          "int",
+          "boolean",
+          "String",
+          "char"
+      ],
+      "answer": "String"
+  },
+  {
+      "question": "What is the default value of a boolean variable in Java?",
+      "options": [
+          "true",
+          "false",
+          "0",
+          "1"
+      ],
+      "answer": "false"
+  },
+  {
+      "question": "Which keyword is used to create a class in Java?",
+      "options": [
+          "class",
+          "object",
+          "define",
+          "create"
+      ],
+      "answer": "class"
+  },
+  {
+      "question": "Which of the following is a valid declaration of a char variable?",
+      "options": [
+          "char c = 'a';",
+          "char c = \"a\";",
+          "char c = a;",
+          "char c = `a`;"
+      ],
+      "answer": "char c = 'a';"
+  },
+  {
+      "question": "What is the output of the following code? int x = 5; System.out.println(x++);",
+      "options": [
+          "5",
+          "6",
+          "Compilation Error",
+          "0"
+      ],
+      "answer": "5"
+  },
+  {
+      "question": "Which method can be used to find the length of a string in Java?",
+      "options": [
+          "getLength()",
+          "length()",
+          "size()",
+          "count()"
+      ],
+      "answer": "length()"
+  },
+  {
+      "question": "Which exception is thrown when an array index is out of bounds?",
+      "options": [
+          "ArrayIndexOutOfBoundsException",
+          "IndexOutOfBoundsException",
+          "ArrayException",
+          "OutOfBoundsException"
+      ],
+      "answer": "ArrayIndexOutOfBoundsException"
+  },
+  {
+      "question": "What is the superclass of all exceptions in Java?",
+      "options": [
+          "Throwable",
+          "Error",
+          "Exception",
+          "RuntimeException"
+      ],
+      "answer": "Throwable"
+  },
+  {
+      "question": "Which of the following is a valid way to declare an array in Java?",
+      "options": [
+          "int arr[] = new int[5];",
+          "int arr = new int[5];",
+          "int arr() = new int[5];",
+          "int arr = int[5];"
+      ],
+      "answer": "int arr[] = new int[5];"
+  },
+  {
+      "question": "Which of the following is not an access modifier in Java?",
+      "options": [
+          "public",
+          "private",
+          "protected",
+          "friend"
+      ],
+      "answer": "friend"
+  },
+  {
+      "question": "What is the output of the following code? System.out.println(10 + 20 + '30');",
+      "options": [
+          "3030",
+          "102030",
+          "30",
+          "Invalid"
+      ],
+      "answer": "3030"
+  },
+  {
+      "question": "Which keyword is used to inherit a class in Java?",
+      "options": [
+          "extends",
+          "implements",
+          "inherits",
+          "uses"
+      ],
+      "answer": "extends"
+  },
+  {
+      "question": "Which interface is implemented by all Java Collections?",
+      "options": [
+          "Collection",
+          "List",
+          "Set",
+          "Map"
+      ],
+      "answer": "Collection"
+  },
+  {
+      "question": "What is the return type of the main method in Java?",
+      "options": [
+          "void",
+          "int",
+          "String",
+          "main"
+      ],
+      "answer": "void"
+  },
+  {
+      "question": "Which of the following is a marker interface in Java?",
+      "options": [
+          "Serializable",
+          "Cloneable",
+          "Remote",
+          "All of the above"
+      ],
+      "answer": "All of the above"
+  },
+  {
+      "question": "Which of the following is a feature of Object-Oriented Programming in Java?",
+      "options": [
+          "Abstraction",
+          "Encapsulation",
+          "Polymorphism",
+          "All of the above"
+      ],
+      "answer": "All of the above"
+  },
+  {
+      "question": "What is the default value of a reference variable in Java?",
+      "options": [
+          "null",
+          "0",
+          "undefined",
+          "false"
+      ],
+      "answer": "null"
+  },
+  {
+      "question": "What is the main purpose of the garbage collector in Java?",
+      "options": [
+          "To free up memory",
+          "To optimize CPU usage",
+          "To manage threads",
+          "To handle exceptions"
+      ],
+      "answer": "To free up memory"
+  },
+  {
+      "question": "Which of the following statements is true about the final keyword in Java?",
+      "options": [
+          "It can be used with classes, methods, and variables",
+          "It can be modified later",
+          "It cannot be used with variables",
+          "None of the above"
+      ],
+      "answer": "It can be used with classes, methods, and variables"
+  }
+]

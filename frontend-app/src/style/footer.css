@@ -1,0 +1,98 @@
+.footer {
+    background-color: #000000;
+    padding: 8px 0px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .social-links {
+    margin-bottom: 5px;
+}
+
+.footer .social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+    font-size: 18px;
+}
+
+.footer .social-links a:hover {
+    color: #0077b5; 
+}
+
+.footer p {
+    margin: 5px;
+    font-size: 14px;
+    color: #777;
+}
+.footer .fa-linkedin{
+    color: blue;
+    margin-right: 8px;
+}
+.footer .fa-telegram {
+    color: #0077b5; 
+    margin-right: 8px;
+}
+
+.footer .fa-youtube {
+    color: #FF0000; 
+    margin-right: 8px;
+}
+
+
+.about-us {
+    padding: 20px 40px; 
+    background-color: #292929;
+}
+
+.about-us ul {
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about-us li {
+    margin-bottom: 15px; 
+}
+
+.about-us h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: rgb(6 183 129);
+}
+
+.about-us a {
+    font-weight: 500;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.about-us a:hover {
+    color: #0056b3;
+    text-decoration: underline; 
+}
+
+.contact {
+    margin: 20px 0;
+    display: flex; 
+    align-items: center;
+    font-size: 16px; 
+    color: #ffffff;
+}
+
+.contact i {
+    margin-right: 8px; 
+    color: rgb(6 183 129); 
+    font-size: 20px; 
+}
+
+.contact:hover {
+    color: #0056b3; 
+    cursor: pointer; 
+}

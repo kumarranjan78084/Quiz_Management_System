@@ -1,0 +1,36 @@
+// src/AboutUs.js
+import React from 'react';
+import './AboutUs.css'; // Optional: Import CSS for styling
+
+const AboutUs = () => {
+  return (
+    <div className="about-us-container">
+      <h1>About Us</h1>
+      <section className="about-section">
+        <p>
+          Welcome to [Your Company Name]! We are passionate about [describe your service, product, or mission].
+          Our team is dedicated to providing [highlight key values such as quality, innovation, or customer satisfaction].
+        </p>
+        <p>
+          Since our founding in [year], we've worked hard to become a trusted leader in [industry or field].
+          We believe in [any core beliefs or mission statement] and strive to bring these principles to life in
+          everything we do.
+        </p>
+        <p>
+          We’re here to help you [describe what you offer to customers].
+          Thank you for being part of our journey. Let’s achieve great things together!
+        </p>
+      </section>
+      <section className="team-section">
+        <h2>Meet Our Team</h2>
+        <p>[Optional: Introduce key team members or provide a few sentences about the team culture.]</p>
+      </section>
+      <section className="contact-section">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us at <a href="mailto:info@yourcompany.com">info@yourcompany.com</a> with any questions or feedback.</p>
+      </section>
+    </div>
+  );
+};
+
+export default AboutUs;

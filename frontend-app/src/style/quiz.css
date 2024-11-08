@@ -1,0 +1,142 @@
+.container {
+    max-width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    color: #007bff;
+    margin: 25px 0px;
+}
+.quiz{
+    display: flex;
+}
+
+.quiz-form {
+    justify-content: center;
+    width: 28%;
+    border: 1px solid black;
+    padding: 5% 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 20px;
+    background-color: #5cc3ca;
+}
+
+.quiz-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.quiz-form input[type="text"],
+.quiz-form input[type="number"] {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.quiz-form input[type="text"]:focus,
+.quiz-form input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+.quiz-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.quiz-form button:hover {
+    background-color: #0056b3;
+}
+
+.quiz-list {
+    width: 42%;
+    border-radius: 20px;
+    border: 1px solid #a1b5fb;
+    padding: 3% 6%;
+    background-color: darkslategray;
+    margin: 0 25px;
+}
+
+.quiz-list h2 {
+    margin-bottom: 20px;
+    color: #5cc3ca;
+}
+
+.quiz-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-item h3 {
+    margin: 0;
+    color: #333;
+}
+
+.quiz-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.quiz-item button {
+    padding: 8px 16px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quiz-item button:hover {
+    background-color: #218838;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .quiz-form input[type="text"],
+    .quiz-form input[type="number"],
+    .quiz-form button {
+        font-size: 14px;
+    }
+
+    .quiz-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .quiz-item button {
+        margin-top: 10px;
+        width: 100%;
+    }
+}

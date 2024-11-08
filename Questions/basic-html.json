@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What does HTML stand for?",
+        "options": [
+            "HyperText Markup Language",
+            "HyperText Markdown Language",
+            "HyperText Machine Language",
+            "HyperText and links Markup Language"
+        ],
+        "answer": "HyperText Markup Language"
+    },
+    {
+        "question": "Which tag is used to create a hyperlink?",
+        "options": [
+            "<a>",
+            "<link>",
+            "<href>",
+            "<url>"
+        ],
+        "answer": "<a>"
+    },
+    {
+        "question": "Which HTML element defines the title of a document?",
+        "options": [
+            "<title>",
+            "<head>",
+            "<meta>",
+            "<h1>"
+        ],
+        "answer": "<title>"
+    },
+    {
+        "question": "What is the correct HTML element for inserting a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<lb>",
+            "<linebreak>"
+        ],
+        "answer": "<br>"
+    },
+    {
+        "question": "Which HTML attribute is used to define inline styles?",
+        "options": [
+            "styles",
+            "font",
+            "class",
+            "style"
+        ],
+        "answer": "style"
+    },
+    {
+        "question": "What is the purpose of the <meta> tag in HTML?",
+        "options": [
+            "To define the title",
+            "To include scripts",
+            "To provide metadata",
+            "To create links"
+        ],
+        "answer": "To provide metadata"
+    },
+    {
+        "question": "Which HTML tag is used to define an unordered list?",
+        "options": [
+            "<ol>",
+            "<ul>",
+            "<li>",
+            "<list>"
+        ],
+        "answer": "<ul>"
+    },
+    {
+        "question": "Which tag is used to create a checkbox in HTML?",
+        "options": [
+            "<check>",
+            "<checkbox>",
+            "<input type='checkbox'>",
+            "<input type='check'>"
+        ],
+        "answer": "<input type='checkbox'>"
+    },
+    {
+        "question": "Which element is used for the largest heading in HTML?",
+        "options": [
+            "<h1>",
+            "<h2>",
+            "<h3>",
+            "<heading>"
+        ],
+        "answer": "<h1>"
+    },
+    {
+        "question": "What does the <iframe> tag do?",
+        "options": [
+            "Creates an inline frame",
+            "Inserts a link",
+            "Defines a list",
+            "Creates an image"
+        ],
+        "answer": "Creates an inline frame"
+    },
+    {
+        "question": "What is the correct HTML for making a text area?",
+        "options": [
+            "<textarea>",
+            "<input type='text'>",
+            "<text>",
+            "<textbox>"
+        ],
+        "answer": "<textarea>"
+    },
+    {
+        "question": "Which HTML element is used to define a footer?",
+        "options": [
+            "<footer>",
+            "<bottom>",
+            "<section>",
+            "<div>"
+        ],
+        "answer": "<footer>"
+    },
+    {
+        "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+        "options": [
+            "src",
+            "alt",
+            "title",
+            "longdesc"
+        ],
+        "answer": "alt"
+    },
+    {
+        "question": "Which of the following is a valid HTML5 doctype?",
+        "options": [
+            "<!DOCTYPE html>",
+            "<!DOCTYPE HTML5>",
+            "<DOCTYPE html>",
+            "<!DOCTYPE>"
+        ],
+        "answer": "<!DOCTYPE html>"
+    },
+    {
+        "question": "What is the purpose of the <script> tag?",
+        "options": [
+            "To include CSS",
+            "To define JavaScript",
+            "To link to other pages",
+            "To create forms"
+        ],
+        "answer": "To define JavaScript"
+    },
+    {
+        "question": "Which HTML tag is used to define a table?",
+        "options": [
+            "<table>",
+            "<tab>",
+            "<t>",
+            "<tbl>"
+        ],
+        "answer": "<table>"
+    },
+    {
+        "question": "What is the correct HTML for adding a background color?",
+        "options": [
+            "<body bg='color'>",
+            "<body style='background-color:color'>",
+            "<background color='color'>",
+            "<body color='color'>"
+        ],
+        "answer": "<body style='background-color:color'>"
+    },
+    {
+        "question": "Which tag is used for comments in HTML?",
+        "options": [
+            "<!-- comment -->",
+            "<-- comment -->",
+            "// comment",
+            "/* comment */"
+        ],
+        "answer": "<!-- comment -->"
+    },
+    {
+        "question": "What is the default value of the type attribute of a button?",
+        "options": [
+            "button",
+            "submit",
+            "reset",
+            "default"
+        ],
+        "answer": "submit"
+    },
+    {
+        "question": "Which attribute is used to provide a unique identifier for an HTML element?",
+        "options": [
+            "class",
+            "id",
+            "name",
+            "unique"
+        ],
+        "answer": "id"
+    }
+]

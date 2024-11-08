@@ -1,0 +1,145 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 20px;
+  background-color: #515157;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.navbar-center {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end; 
+}
+
+.navbar-center a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.navbar-center a:hover {
+  color: #d9d9d9;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#mode-toggle {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+}
+
+.navbar-right .login , .logout{
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: #2c2687;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.user-greeting{
+  font-size: 29px;
+  margin: 0 70px;
+  font-family: monospace;
+  color: #3bbf6a;
+}
+
+.navbar-right .login:hover, .logout:hover {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.menu {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: -250px;
+  background-color: #d9d9da;
+  overflow-x: hidden;
+  transition: left 0.3s ease;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #333;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.menu a:hover {
+  background-color: #f1f1f1;
+}
+
+.overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999; 
+  opacity: 0; 
+  transition: opacity 0.3s ease;
+  visibility: hidden; 
+}
+
+.overlay.visible {
+  opacity: 1; 
+  visibility: visible;
+}
+
+.overlay.hidden {
+  opacity: 0; 
+  visibility: hidden; 
+}
+
+.light-mode {
+  background-color: #f4f4f4;
+  color: #000;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.hidden {
+  left: -250px; 
+}
+
+.visible {
+  left: 0;
+}
